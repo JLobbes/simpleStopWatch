@@ -1,0 +1,61 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+
+.button p {
+    margin-top: 1.25em;
+}
+
+.button:hover {
+    background-color: rgb(244, 231, 215);
+}
+
+
+#controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 4px solid rgb(152, 137, 118);
+    text-align: center;
+    font-size: 2.25em;
+}
+
+#display {
+    font-size: 5em;
+    text-align: center;
+}
+
+#display p {
+    margin: 0.25em 0 0 0;
+}
+
+img {
+    width: 1.5em;
+    height: auto;
+    margin-top: 1em;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 24em;
+    height: 16em;
+    margin: 15em auto auto auto;
+    padding: 0.5em;
+    background-color: rgb(229, 214, 195);
+    box-shadow: 0.10em 0.15em 0.25em 0.25em rgb(169, 155, 138);
+    border-radius: 5px;
+    color: rgb(252, 249, 247);
+    text-shadow: 0.0em 0.0em 0.5em rgb(86, 68, 46);
+    font-weight: bold;
+}
