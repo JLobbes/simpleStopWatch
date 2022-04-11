@@ -1,5 +1,5 @@
 # simpleStopWatch
-A simple in-browser stopwatch using JavaScript.
+A simple in-browser stopwatch using JS.
 
 Title: Simple StopWatch
 
